@@ -1,7 +1,7 @@
 <?php
 class Decryption
 {
-
+	//this is a sample private key, change it with yours
     public $privateKey = '-----BEGIN RSA PRIVATE KEY-----
 MIIEoQIBAAKCAQBsUHjO3fTA/w75dBU9NOdZSipP7WRNNMjSWwcF4n1SZDwayosk
 HD+zoj1Iwb+tuB9zdvHUk+9Fu96zpFcgUEV7O+UX7cNgXwagqpL4DU8z+3puLqji
