@@ -1,0 +1,18 @@
+    /*change the column name with your config list column names*/
+    /*column number e.g. col1, col2, represents the column order number*/
+    .checkbox, .radio {margin: 3px 0; min-width: 70px; } div#listContainer {background: #fff; } th {display: none; } td {float: left; margin: 6px 0 !important; display: block; min-height: none !important; box-sizing: border-box; } td:before {display: block } input[type=text], select, textarea {box-shadow: none; border-radius: 0; padding: 4px; } td[class*="col"]:before {width: 30%; float: left; font-weight: bold; } td {max-width: 620px; width: 100% !important; } td [name="input"], td > select, textarea {width: 68% !important; box-sizing: border-box; } img.calendarIcon {display: none; } .radio {width: 50%; float: left; } .buttonsColumn {min-height: 30px; } textarea {min-height: 120px; } .buttonsColumn {text-align: right; } table {border-collapse: collapse; } #list tbody > tr + tr + tr {margin-top: 22px; border-top: 1px solid #ccc; box-shadow: 1px 0 0 #ccc; } #list tbody tr td:first-child {padding-top: 20px !important; } input.stepper {width: 100% !important; } 
+    td.col1:before {
+        content: "Column 1";
+    }
+    td.col2:before {
+        content: "Column 2";
+    }
+    td.col3:before {
+        content: "Column 3";
+    }
+    td.col4:before {
+        content: "Column 4";
+    }
+    td.col5:before {
+        content: "Column 5";
+    }
